@@ -1,6 +1,6 @@
 ### Hi there, I'm Vladyslav Finiak 👋
 
-I am a 1st-Year Computer Science student based in Warsaw, Poland, specializing in Applied AI and Backend Systems Architecture. I am currently bridging my university foundation with independent Ivy League coursework to build production-ready tools.
+I am a Computer Science student based in Warsaw, Poland, specializing in Applied AI and Backend Systems Architecture. I am currently bridging my university foundation with independent Ivy League coursework to build production-ready tools.
 
 **🧠 What I'm currently working on:**
 * Implementing neural network architectures and matrix calculus via **Stanford's CS224n (Deep Learning for NLP)**.
