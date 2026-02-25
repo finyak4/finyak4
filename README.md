@@ -4,7 +4,6 @@ I am a Computer Science student based in Warsaw, Poland, specializing in Applied
 
 **🧠 What I'm currently working on:**
 * Implementing neural network architectures and matrix calculus via **Stanford's CS224n (Deep Learning for NLP)**.
-* Building full-stack web architectures using **Django, PostgreSQL, and Docker**.
 * Exploring Large Language Models and preparing for local model serving (vLLM/SGLang).
 
 **🛠️ My Tech Stack:**
