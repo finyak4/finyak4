@@ -15,7 +15,7 @@ I am a 1st-Year Computer Science student based in Warsaw, Poland, specializing i
 
 **📫 How to reach me:**
 * **Email:** vlad.finyak4201@gmail.com
-* **LinkedIn:** [[Your LinkedIn URL](https://www.linkedin.com/in/vladyslav-finiak-85b115343/)]
+* **LinkedIn:** [[here](https://www.linkedin.com/in/vladyslav-finiak-85b115343/)]
 <!--
 **finyak4/finyak4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
