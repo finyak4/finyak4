@@ -7,9 +7,9 @@ I am a Computer Science student based in Warsaw, Poland, specializing in Applied
 * Exploring Large Language Models and preparing for local model serving (vLLM/SGLang).
 
 **🛠️ My Tech Stack:**
-* **Languages:** Python, SQL
-* **AI & Data:** NumPy, Pandas, Scikit-Learn, Streamlit, PyTorch(learning)
-* **Backend:** Django, Django REST Framework, Celery, Nginx
+* **Languages:** Python, SQL, HTML/CSS
+* **AI & Data:** PyTorch (In Progress), NumPy, Pandas, Streamlit, Large Language Models (LLM) concepts (In Progress)
+* **Backend & Infrastructure:** Django, Django REST Framework (DRF), PostgreSQL
 * **Systems:** Git, Docker, Linux, Agile/Scrum
 
 **📫 How to reach me:**
