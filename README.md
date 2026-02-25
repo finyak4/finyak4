@@ -9,7 +9,7 @@ I am a Computer Science student based in Warsaw, Poland, specializing in Applied
 **🛠️ My Tech Stack:**
 * **Languages:** Python, SQL, HTML/CSS
 * **AI & Data:** PyTorch (In Progress), NumPy, Pandas, Streamlit, Large Language Models (LLM) concepts (In Progress)
-* **Backend & Infrastructure:** Django, Django REST Framework (DRF), PostgreSQL
+* **Backend:** Django, Django REST Framework (DRF), PostgreSQL
 * **Systems:** Git, Docker, Linux, Agile/Scrum
 
 **📫 How to reach me:**
