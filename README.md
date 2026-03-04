@@ -1,11 +1,5 @@
 ### Hi there, I'm Vladyslav Finiak 👋
 
-I am a Computer Science student based in Warsaw, Poland, specializing in Applied AI and Backend Systems Architecture. I am currently bridging my university foundation with independent Ivy League coursework to build production-ready tools.
-
-**🧠 What I'm currently working on:**
-* Implementing neural network architectures and matrix calculus via **Stanford's CS224n (Deep Learning for NLP)**.
-* Exploring Large Language Models and preparing for local model serving (vLLM/SGLang).
-
 **🛠️ My Tech Stack:**
 * **Languages:** Python, SQL, HTML/CSS
 * **AI & Data:** PyTorch (In Progress), NumPy, Pandas, Streamlit, Large Language Models (LLM) concepts (In Progress)
