@@ -14,7 +14,6 @@
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
         }
-
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             background-color: var(--bg-color);
@@ -26,8 +25,7 @@
             margin: 0;
             padding: 20px;
         }
-
-        /* Animated Container */
+         /* Animated Container */
         .profile-card {
             background-color: var(--card-bg);
             max-width: 650px;
@@ -35,41 +33,34 @@
             border-radius: 16px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            
-            /* Entry Animation */
+             /* Entry Animation */
             opacity: 0;
             transform: translateY(30px);
             animation: fadeUp 1s ease-out forwards;
-            
-            /* Continuous floating animation */
+             /* Continuous floating animation */
             transition: transform 0.3s ease;
         }
-
         .profile-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
         }
-
         /* Typography */
         h1 {
             margin: 0 0 10px 0;
             font-size: 2.2rem;
             color: var(--text-main);
         }
-
         .subtitle {
             font-size: 1.1rem;
             color: var(--accent);
             margin-bottom: 25px;
             font-weight: 500;
         }
-
         p, li {
             color: var(--text-muted);
             line-height: 1.6;
             font-size: 1rem;
         }
-
         /* Section Styling */
         .section-title {
             font-size: 1.2rem;
@@ -79,12 +70,10 @@
             align-items: center;
             gap: 10px;
         }
-
         ul {
             padding-left: 20px;
             margin-bottom: 25px;
         }
-
         /* Interactive Tech Stack Tags */
         .tech-stack {
             display: flex;
@@ -92,7 +81,6 @@
             gap: 10px;
             margin-top: 15px;
         }
-
         .tech-tag {
             background: rgba(59, 130, 246, 0.1);
             color: var(--accent);
@@ -104,14 +92,12 @@
             cursor: default;
             transition: all 0.3s ease;
         }
-
         .tech-tag:hover {
             background: var(--accent);
             color: white;
             transform: scale(1.05);
             box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
         }
-
         /* Keyframe Animations */
         @keyframes fadeUp {
             0% {
@@ -124,21 +110,17 @@
             }
         }
     </style>
-</head>
-<body>
-
+    </head>
+    <body>
     <div class="profile-card">
         <h1>Hi, I'm Vladyslav Finiak 👋</h1>
         <div class="subtitle">CS Student • Applied AI & Backend Systems</div>
-        
         <p>Based in Warsaw, Poland. I am passionate about bridging academic foundations with industry standards, frequently supplementing my university studies with rigorous independent coursework to build scalable, production-ready tools.</p>
-
         <div class="section-title">🧠 Currently Exploring</div>
         <ul>
             <li><strong>Deep Learning:</strong> Implementing neural network architectures and mastering matrix calculus via Stanford's CS224n.</li>
             <li><strong>LLMs:</strong> Researching architecture and preparing for local model serving using vLLM and SGLang.</li>
         </ul>
-
         <div class="section-title">🛠️ Technical Arsenal</div>
         <div class="tech-stack">
             <span class="tech-tag">Python</span>
