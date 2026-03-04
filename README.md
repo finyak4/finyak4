@@ -1,43 +1,159 @@
-<div align="center">
-  <a href="https://github.com/finyak4">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Vladyslav!+👋;Backend+%26+Applied+AI+Developer;Welcome+to+my+GitHub+portfolio." alt="Typing SVG" />
-  </a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vladyslav Finiak | Portfolio</title>
+    <style>
+        /* Base styles and color palette */
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #3b82f6;
+            --accent-hover: #60a5fa;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
 
-<br/>
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
 
-Welcome to my GitHub! I'm super passionate about diving into backend development and artificial intelligence. I spend most of my time learning how things work under the hood and experimenting with new tech.
+        /* Animated Container */
+        .profile-card {
+            background-color: var(--card-bg);
+            max-width: 650px;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            
+            /* Entry Animation */
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 1s ease-out forwards;
+            
+            /* Continuous floating animation */
+            transition: transform 0.3s ease;
+        }
 
-### 🧠 What I'm up to right now:
-* Grinding through neural network architectures and matrix calculus (following along with **Stanford's CS224n**!).
-* Playing around with Large Language Models and figuring out how to serve them locally using tools like vLLM and SGLang.
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+        }
 
-<br/>
+        /* Typography */
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2rem;
+            color: var(--text-main);
+        }
 
-### 🛠️ My Tech Stack
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--accent);
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
 
-**Languages:**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+        p, li {
+            color: var(--text-muted);
+            line-height: 1.6;
+            font-size: 1rem;
+        }
 
-**AI & Data:**  
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+        /* Section Styling */
+        .section-title {
+            font-size: 1.2rem;
+            margin: 25px 0 15px 0;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-**Backend & Infra:**  
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+        ul {
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
 
-<br/>
+        /* Interactive Tech Stack Tags */
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
 
-### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=finyak4&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=finyak4&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" />
-</div>
+        .tech-tag {
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--accent);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            cursor: default;
+            transition: all 0.3s ease;
+        }
 
-<br/>
+        .tech-tag:hover {
+            background: var(--accent);
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+        }
 
-### 📫 Let's Connect
-<a href="mailto:vlad.finyak4201@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/vladyslav-finiak-85b115343/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+        /* Keyframe Animations */
+        @keyframes fadeUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <h1>Hi, I'm Vladyslav Finiak 👋</h1>
+        <div class="subtitle">CS Student • Applied AI & Backend Systems</div>
+        
+        <p>Based in Warsaw, Poland. I am passionate about bridging academic foundations with industry standards, frequently supplementing my university studies with rigorous independent coursework to build scalable, production-ready tools.</p>
+
+        <div class="section-title">🧠 Currently Exploring</div>
+        <ul>
+            <li><strong>Deep Learning:</strong> Implementing neural network architectures and mastering matrix calculus via Stanford's CS224n.</li>
+            <li><strong>LLMs:</strong> Researching architecture and preparing for local model serving using vLLM and SGLang.</li>
+        </ul>
+
+        <div class="section-title">🛠️ Technical Arsenal</div>
+        <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">PyTorch</span>
+            <span class="tech-tag">NumPy & Pandas</span>
+            <span class="tech-tag">Django & DRF</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Linux</span>
+            <span class="tech-tag">Streamlit</span>
+        </div>
+    </div>
+
+</body>
+</html>
 <!--
 **finyak4/finyak4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
